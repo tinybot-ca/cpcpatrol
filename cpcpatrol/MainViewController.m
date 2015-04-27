@@ -55,7 +55,9 @@
         PFLogInViewController *logInViewController = [[PFLogInViewController alloc] init];
         [logInViewController setDelegate:self];
         [logInViewController setFacebookPermissions:[NSArray arrayWithObjects:@"friends_about_me", nil]];
-        [logInViewController setFields: PFLogInFieldsTwitter | PFLogInFieldsFacebook | PFLogInFieldsDismissButton];
+//        [logInViewController setFields: PFLogInFieldsTwitter | PFLogInFieldsFacebook | PFLogInFieldsDismissButton];
+//        [logInViewController setFields: PFLogInFieldsUsernameAndPassword | PFLogInFieldsSignUpButton | PFLogInFieldsFacebook | PFLogInFieldsDismissButton];
+        [logInViewController setFields: PFLogInFieldsDefault | PFLogInFieldsFacebook];
         
         // Present Log In View Controller
         [self presentViewController:logInViewController animated:YES completion:NULL];

@@ -193,9 +193,9 @@
 		420CB5D81AEC7D3D003C317D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				42D5B3B41AEDA225005E43DD /* Bolts.framework */,
 				42F0CB171AECC2B10032B880 /* Accounts.framework */,
 				420CB5D91AEC7D7C003C317D /* AudioToolbox.framework */,
+				42D5B3B41AEDA225005E43DD /* Bolts.framework */,
 				420CB5DB1AEC7D8A003C317D /* CFNetwork.framework */,
 				420CB5DD1AEC7D92003C317D /* CoreGraphics.framework */,
 				420CB5DF1AEC7DD8003C317D /* CoreLocation.framework */,
